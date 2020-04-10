@@ -52,7 +52,7 @@ class PrinceCollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(PrinceCollectionViewCell.self)", for: indexPath) as! PrinceCollectionViewCell
         
         // Configure the cell
-        cell.imageView.image = UIImage(named: "pic\(indexPath.row)")
+        cell.imageView.image = UIImage(named: "pic\(indexPath.item)")
         
         
         
